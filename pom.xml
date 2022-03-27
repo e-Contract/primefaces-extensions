@@ -490,6 +490,14 @@
                 <optional>true</optional>
             </dependency>
 
+            <!-- RateLimiter dependencies -->
+            <dependency>
+                <groupId>io.github.resilience4j</groupId>
+                <artifactId>resilience4j-ratelimiter</artifactId>
+                <version>1.7.1</version>
+                <optional>true</optional>
+            </dependency>
+
             <!-- Test -->
             <dependency>
                 <groupId>junit</groupId>

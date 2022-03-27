@@ -768,6 +768,12 @@
             <artifactId>morphia-core</artifactId>
             <optional>true</optional>
         </dependency>
+        <!-- RateLimiter dependencies -->
+        <dependency>
+            <groupId>io.github.resilience4j</groupId>
+            <artifactId>resilience4j-ratelimiter</artifactId>
+            <optional>true</optional>
+        </dependency>
         <!-- TEST -->
         <dependency>
             <groupId>junit</groupId>
